@@ -7,7 +7,7 @@ This is my attempt at pricing options using the [Black Scholes Model](https://en
 
 **Monte Carlo method**: Monte Carlo simulations rely on randomness. For each option, I generated random paths for which the stock prices could take (below are the first 100 of 100,000 outcomes). I calculated the option's intrinsic value for each path, and took the average of positive intrinsic values to be the predicted price.
 
-<img src="Plots/priceCone.png" width="500">
+<img src="img/priceCone.png" width="500">
 
 More info:
 [Random Walk & Geometric Brownian Motion](https://www.investopedia.com/articles/07/montecarlo.asp)
@@ -18,12 +18,12 @@ Using the ask price as a benchmark, the predictions were accurate overall. As sh
 
 Black Scholes              |  Monte Carlo
 :-------------------------:|:-------------------------:
-<img src="Plots/accuracyBS.png" width="500"> | <img src="Plots/accuracyMC.png" width="500">
+<img src="img/accuracyBS.png" width="500"> | <img src="img/accuracyMC.png" width="500">
 
 Black Scholes was the less accurate method. It tended to overprice options - especially those that were out-of-the-money. The Monte Carlo predictions fit y=x (plotted as a grey line) much more closely.
 
 
 ## Regression Analysis
 Upon discovering that in-the-money calls were priced more accurately than out-of-the-money calls, I wanted to find out if any other factors (factors other than the strike price) are correlated with accuracy. Below are the results:
-<img src="Plots/corrBS.png" width="1000">
-<img src="Plots/corrMC.png" width="1000">
+<img src="img/corrBS.png" width="1000">
+<img src="img/corrMC.png" width="1000">
