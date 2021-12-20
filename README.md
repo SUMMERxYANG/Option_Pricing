@@ -1,5 +1,5 @@
 # Option Pricing
-This is my attempt at pricing options using the [Black Scholes Model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model) and [Monte Carlo methods](https://en.wikipedia.org/wiki/Monte_Carlo_method#Finance_and_business). The details of how I implemented these methods can be found in the notebook :)
+This is my attempt at pricing options using the [Black Scholes Model](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model) and [Monte Carlo methods](https://en.wikipedia.org/wiki/Monte_Carlo_method#Finance_and_business). The details of how I implemented these methods can be found in the notebook - view [here via Jupyter nbviewer](https://nbviewer.jupyter.org/github/SUMMERxYANG/Option_Pricing/blob/main/Options.ipynb) (the github viewer can be a little slow).
 
 
 ## Brief Overview
